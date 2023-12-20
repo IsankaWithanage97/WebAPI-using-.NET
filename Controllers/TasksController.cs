@@ -12,7 +12,7 @@ namespace WebAPI.Controllers
         public IActionResult Tasks()
         {
          
-            var tasks = new string[] { "Task1", "Task2", "Task3" };
+            var tasks = new string[] { "Task1", "Task2", "Task3", "Task4" };
             return Ok(tasks);
         }
 
